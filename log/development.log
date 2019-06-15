@@ -185,3 +185,21 @@ Processing by PlatesController#show as HTML
 Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/plates" for ::1 at 2019-06-15 09:08:06 -0400
+Processing by PlatesController#index as */*
+  Parameters: {"name"=>"Amanda", "description"=>"I love cats, cats, cats", "image"=>"https://images.unsplash.com/photo-1518791841217-8f162f1e1131?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80", "plate"=>{"name"=>"Amanda", "description"=>"I love cats, cats, cats", "image"=>"https://images.unsplash.com/photo-1518791841217-8f162f1e1131?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80"}}
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/plates" for ::1 at 2019-06-15 09:08:39 -0400
+Processing by PlatesController#create as */*
+  Parameters: {"name"=>"Plate 4", "samples"=>12, "replicates"=>3, "dilutions"=>2, "plate"=>{"name"=>"Plate 4", "samples"=>12, "replicates"=>3, "dilutions"=>2}}
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/plates/4" for ::1 at 2019-06-15 09:08:42 -0400
+Processing by PlatesController#show as HTML
+  Parameters: {"id"=>"4"}
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+

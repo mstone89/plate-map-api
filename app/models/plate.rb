@@ -38,4 +38,21 @@ class Plate
             'dilutions' => results.first['dilutions'].to_i
         }
     end
+
+    def self.create opts
+        results = DB.exec_params(<<-SQL, [opts['name'], opts['samples'], opts['replicates'], opts['dilutions']])
+            INSERT INTO plates (name, samples, replicates, dilutions)
+            VALUES ($1, $2, $3, $4)
+            RETURNING id, name, samples, replicates, dilutions;
+        SQL
+
+        {
+            'id' => results.first['id'].to_i,
+            'name' => results.first['name'],
+            'samples' => results.first['samples'].to_i,
+            'replicates' => results.first['replicates'].to_i,
+            'dilutions' => results.first['dilutions'].to_i
+        }
+
+    end
 end
