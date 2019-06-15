@@ -83,3 +83,64 @@ puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
 puma (3.12.1) lib/puma/server.rb:474:in `process_client'
 puma (3.12.1) lib/puma/server.rb:334:in `block in run'
 puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/plates" for ::1 at 2019-06-15 08:58:41 -0400
+  
+SyntaxError (/Users/mollystone/dev/final_project/plate-map-api/config/routes.rb:3: syntax error, unexpected tSTRING_BEG, expecting do or '{' or '('
+    get '/plates', to 'plates#index'
+                      ^
+/Users/mollystone/dev/final_project/plate-map-api/config/routes.rb:4: syntax error, unexpected tSTRING_BEG, expecting do or '{' or '('
+    get '/plates/:id', to 'plates#show'
+                          ^
+/Users/mollystone/dev/final_project/plate-map-api/config/routes.rb:5: syntax error, unexpected tSTRING_BEG, expecting do or '{' or '('
+    post '/plates', to 'plates#create'
+                       ^
+/Users/mollystone/dev/final_project/plate-map-api/config/routes.rb:6: syntax error, unexpected tSTRING_BEG, expecting do or '{' or '('
+    delete 'plates/:id', to 'plates#delete'
+                            ^):
+  
+config/routes.rb:3: syntax error, unexpected tSTRING_BEG, expecting do or '{' or '('
+config/routes.rb:4: syntax error, unexpected tSTRING_BEG, expecting do or '{' or '('
+config/routes.rb:5: syntax error, unexpected tSTRING_BEG, expecting do or '{' or '('
+config/routes.rb:6: syntax error, unexpected tSTRING_BEG, expecting do or '{' or '('
+Started GET "/favicon.ico" for ::1 at 2019-06-15 08:58:41 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+actionpack (5.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.3) lib/rails/engine.rb:524:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/plates" for ::1 at 2019-06-15 08:59:52 -0400
+Processing by PlatesController#index as HTML
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/Users/mollystone/dev/final_project/plate-map-api/app/models/plate.rb:11: syntax error, unexpected tIDENTIFIER, expecting do or '{' or '('
+... = DB.exec(SELECT * FROM plates)
+...                         ^~~~~~):
+  
+app/models/plate.rb:11: syntax error, unexpected tIDENTIFIER, expecting do or '{' or '('
+app/controllers/plates_controller.rb:4:in `index'
+Started GET "/plates" for ::1 at 2019-06-15 09:00:41 -0400
+Processing by PlatesController#index as HTML
+Completed 200 OK in 7ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
