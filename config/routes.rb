@@ -1,3 +1,8 @@
 Rails.application.routes.draw do
-  # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
+
+    get '/plates', to 'plates#index'
+    get '/plates/:id', to 'plates#show'
+    post '/plates', to 'plates#create'
+    delete 'plates/:id', to 'plates#delete'
+
 end
