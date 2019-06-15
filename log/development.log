@@ -144,3 +144,44 @@ Processing by PlatesController#index as HTML
 Completed 200 OK in 7ms (Views: 0.2ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/plates" for ::1 at 2019-06-15 09:03:47 -0400
+Processing by PlatesController#index as HTML
+Completed 200 OK in 8ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/plates/1" for ::1 at 2019-06-15 09:03:49 -0400
+Processing by PlatesController#show as HTML
+  Parameters: {"id"=>"1"}
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/plates/2" for ::1 at 2019-06-15 09:03:53 -0400
+Processing by PlatesController#show as HTML
+  Parameters: {"id"=>"2"}
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/plates/2" for ::1 at 2019-06-15 09:05:03 -0400
+Processing by PlatesController#show as HTML
+  Parameters: {"id"=>"2"}
+Completed 500 Internal Server Error in 9ms (ActiveRecord: 0.0ms)
+
+
+  
+NameError (undefined local variable or method `result' for Plate:Class
+Did you mean?  results):
+  
+app/models/plate.rb:34:in `find'
+app/controllers/plates_controller.rb:8:in `show'
+Started GET "/plates/2" for ::1 at 2019-06-15 09:05:14 -0400
+Processing by PlatesController#show as HTML
+  Parameters: {"id"=>"2"}
+Completed 200 OK in 8ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/plates/1" for ::1 at 2019-06-15 09:05:16 -0400
+Processing by PlatesController#show as HTML
+  Parameters: {"id"=>"1"}
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+

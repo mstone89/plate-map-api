@@ -20,4 +20,22 @@ class Plate
             }
         end
     end
+
+    def self.find id
+        results = DB.exec_params(<<-SQL, [id.to_i])
+            SELECT *
+            FROM plates
+            WHERE plates.id = $1;
+        SQL
+
+        return {error: 'No results found'} if !results.first
+
+        {
+            'id' => results.first['id'].to_i,
+            'name' => results.first['name'],
+            'samples' => results.first['samples'].to_i,
+            'replicates' => results.first['replicates'].to_i,
+            'dilutions' => results.first['dilutions'].to_i
+        }
+    end
 end
