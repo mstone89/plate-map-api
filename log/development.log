@@ -203,3 +203,21 @@ Processing by PlatesController#show as HTML
 Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
 
 
+Started DELETE "/plates/4" for ::1 at 2019-06-15 09:10:26 -0400
+Processing by PlatesController#delete as */*
+  Parameters: {"name"=>"Plate 4", "samples"=>12, "replicates"=>3, "dilutions"=>2, "id"=>"4", "plate"=>{"name"=>"Plate 4", "samples"=>12, "replicates"=>3, "dilutions"=>2}}
+Completed 200 OK in 2ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/plates/4" for ::1 at 2019-06-15 09:10:29 -0400
+Processing by PlatesController#show as HTML
+  Parameters: {"id"=>"4"}
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/plates/" for ::1 at 2019-06-15 09:10:34 -0400
+Processing by PlatesController#index as */*
+  Parameters: {"name"=>"Plate 4", "samples"=>12, "replicates"=>3, "dilutions"=>2, "plate"=>{"name"=>"Plate 4", "samples"=>12, "replicates"=>3, "dilutions"=>2}}
+Completed 200 OK in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+

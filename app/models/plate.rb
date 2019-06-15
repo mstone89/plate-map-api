@@ -53,6 +53,11 @@ class Plate
             'replicates' => results.first['replicates'].to_i,
             'dilutions' => results.first['dilutions'].to_i
         }
-
     end
+
+    def self.delete id
+        results = DB.exec_params('DELETE FROM plates WHERE id = $1', [id.to_i])
+        {'deleted' => true}
+    end
+    
 end
