@@ -2011,3 +2011,8 @@ Processing by PlatesController#show as HTML
 Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/plates" for ::1 at 2019-06-19 12:17:42 -0400
+Processing by PlatesController#index as */*
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
