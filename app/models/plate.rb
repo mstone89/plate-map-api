@@ -15,6 +15,7 @@ class Plate
                 'id' => result['id'].to_i,
                 'name' => result['name'],
                 'samples' => result['samples'].to_i,
+                'sc_reps' => result['sc_reps'].to_i,
                 'replicates' => result['replicates'].to_i,
                 'dilutions' => result['dilutions'].to_i
             }
@@ -34,22 +35,24 @@ class Plate
             'id' => results.first['id'].to_i,
             'name' => results.first['name'],
             'samples' => results.first['samples'].to_i,
+            'sc_reps' => results.first['sc_reps'].to_i,
             'replicates' => results.first['replicates'].to_i,
             'dilutions' => results.first['dilutions'].to_i
         }
     end
 
     def self.create opts
-        results = DB.exec_params(<<-SQL, [opts['name'], opts['samples'], opts['replicates'], opts['dilutions']])
-            INSERT INTO plates (name, samples, replicates, dilutions)
-            VALUES ($1, $2, $3, $4)
-            RETURNING id, name, samples, replicates, dilutions;
+        results = DB.exec_params(<<-SQL, [opts['name'], opts['samples'], opts['sc_reps'], opts['replicates'], opts['dilutions']])
+            INSERT INTO plates (name, samples, sc_reps, replicates, dilutions)
+            VALUES ($1, $2, $3, $4, $5)
+            RETURNING id, name, samples, sc_reps, replicates, dilutions;
         SQL
 
         {
             'id' => results.first['id'].to_i,
             'name' => results.first['name'],
             'samples' => results.first['samples'].to_i,
+            'sc_reps' => results.first['sc_reps'].to_i,
             'replicates' => results.first['replicates'].to_i,
             'dilutions' => results.first['dilutions'].to_i
         }
@@ -59,5 +62,5 @@ class Plate
         results = DB.exec_params('DELETE FROM plates WHERE id = $1', [id.to_i])
         {'deleted' => true}
     end
-    
+
 end
