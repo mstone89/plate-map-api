@@ -3266,3 +3266,8 @@ Processing by PlatesController#index as */*
 Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/plates" for ::1 at 2019-06-21 11:53:57 -0400
+Processing by PlatesController#index as */*
+Completed 200 OK in 9ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
