@@ -17,7 +17,8 @@ class Plate
                 'samples' => result['samples'].to_i,
                 'sc_reps' => result['sc_reps'].to_i,
                 'replicates' => result['replicates'].to_i,
-                'dilutions' => result['dilutions'].to_i
+                'dilutions' => result['dilutions'].to_i,
+                'cellcount' => result['cellcount'].to_i
             }
         end
     end
@@ -37,15 +38,16 @@ class Plate
             'samples' => results.first['samples'].to_i,
             'sc_reps' => results.first['sc_reps'].to_i,
             'replicates' => results.first['replicates'].to_i,
-            'dilutions' => results.first['dilutions'].to_i
+            'dilutions' => results.first['dilutions'].to_i,
+            'cellcount' => results.first['cellcount'].to_i
         }
     end
 
     def self.create opts
-        results = DB.exec_params(<<-SQL, [opts['name'], opts['samples'], opts['sc_reps'], opts['replicates'], opts['dilutions']])
-            INSERT INTO plates (name, samples, sc_reps, replicates, dilutions)
-            VALUES ($1, $2, $3, $4, $5)
-            RETURNING id, name, samples, sc_reps, replicates, dilutions;
+        results = DB.exec_params(<<-SQL, [opts['name'], opts['samples'], opts['sc_reps'], opts['replicates'], opts['dilutions'], opts['cellcount']])
+            INSERT INTO plates (name, samples, sc_reps, replicates, dilutions, cellcount)
+            VALUES ($1, $2, $3, $4, $5, $6)
+            RETURNING id, name, samples, sc_reps, replicates, dilutions, cellcount;
         SQL
 
         {
@@ -54,7 +56,8 @@ class Plate
             'samples' => results.first['samples'].to_i,
             'sc_reps' => results.first['sc_reps'].to_i,
             'replicates' => results.first['replicates'].to_i,
-            'dilutions' => results.first['dilutions'].to_i
+            'dilutions' => results.first['dilutions'].to_i,
+            'cellcount' => results.first['cellcount'].to_i
         }
     end
 
