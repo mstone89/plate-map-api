@@ -1,24 +1,4 @@
-# README
+Plate-Map
+======
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+An API backend built with Ruby and using Rails and PostgresSQL. Consumed by the [Plate-Map app frontend](https://github.com/mstone89/plate-map-frontend).

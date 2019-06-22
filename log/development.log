@@ -3271,3 +3271,1003 @@ Processing by PlatesController#index as */*
 Completed 200 OK in 9ms (Views: 0.2ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/plates" for ::1 at 2019-06-21 11:55:04 -0400
+Processing by PlatesController#index as */*
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/plates" for ::1 at 2019-06-21 11:55:19 -0400
+Processing by PlatesController#index as */*
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/plates" for ::1 at 2019-06-21 11:55:24 -0400
+Processing by PlatesController#index as */*
+Completed 200 OK in 0ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/plates" for ::1 at 2019-06-21 11:55:31 -0400
+Processing by PlatesController#index as */*
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/plates" for ::1 at 2019-06-21 11:56:11 -0400
+Processing by PlatesController#index as */*
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/plates" for ::1 at 2019-06-21 11:57:15 -0400
+Processing by PlatesController#index as */*
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/plates" for ::1 at 2019-06-21 11:59:30 -0400
+Processing by PlatesController#create as HTML
+  Parameters: {"name"=>"new plate", "samples"=>10, "sc_reps"=>2, "replicates"=>2, "dilutions"=>4, "cellcount"=>96, "plate"=>{"name"=>"new plate", "samples"=>10, "sc_reps"=>2, "replicates"=>2, "dilutions"=>4, "cellcount"=>96}}
+Completed 200 OK in 2ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/plates" for ::1 at 2019-06-21 11:59:32 -0400
+Processing by PlatesController#index as */*
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/plates" for ::1 at 2019-06-21 11:59:51 -0400
+Processing by PlatesController#index as */*
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/plates" for ::1 at 2019-06-21 12:00:09 -0400
+Processing by PlatesController#index as */*
+Completed 200 OK in 0ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/plates" for ::1 at 2019-06-21 12:00:14 -0400
+Processing by PlatesController#index as */*
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/plates" for ::1 at 2019-06-21 12:00:42 -0400
+Processing by PlatesController#create as HTML
+  Parameters: {"name"=>"new plate", "samples"=>6, "sc_reps"=>2, "replicates"=>2, "dilutions"=>6, "cellcount"=>88, "plate"=>{"name"=>"new plate", "samples"=>6, "sc_reps"=>2, "replicates"=>2, "dilutions"=>6, "cellcount"=>88}}
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/plates" for ::1 at 2019-06-21 12:00:43 -0400
+Processing by PlatesController#index as */*
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/plates/5" for ::1 at 2019-06-21 12:00:45 -0400
+Processing by PlatesController#show as */*
+  Parameters: {"id"=>"5"}
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/plates/5" for ::1 at 2019-06-21 12:01:07 -0400
+Processing by PlatesController#show as */*
+  Parameters: {"id"=>"5"}
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/plates" for ::1 at 2019-06-21 12:02:33 -0400
+Processing by PlatesController#create as HTML
+  Parameters: {"name"=>"saving a plate", "samples"=>8, "sc_reps"=>2, "replicates"=>2, "dilutions"=>5, "cellcount"=>96, "plate"=>{"name"=>"saving a plate", "samples"=>8, "sc_reps"=>2, "replicates"=>2, "dilutions"=>5, "cellcount"=>96}}
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/plates" for ::1 at 2019-06-21 12:02:35 -0400
+Processing by PlatesController#index as */*
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/plates/6" for ::1 at 2019-06-21 12:02:37 -0400
+Processing by PlatesController#show as */*
+  Parameters: {"id"=>"6"}
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started DELETE "/plates/6" for ::1 at 2019-06-21 12:02:40 -0400
+Processing by PlatesController#delete as */*
+  Parameters: {"id"=>"6"}
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/plates" for ::1 at 2019-06-21 12:02:41 -0400
+Processing by PlatesController#index as */*
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/plates/5" for ::1 at 2019-06-21 12:02:42 -0400
+Processing by PlatesController#show as */*
+  Parameters: {"id"=>"5"}
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started DELETE "/plates/5" for ::1 at 2019-06-21 12:02:43 -0400
+Processing by PlatesController#delete as */*
+  Parameters: {"id"=>"5"}
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/plates" for ::1 at 2019-06-21 12:02:44 -0400
+Processing by PlatesController#index as */*
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/plates/4" for ::1 at 2019-06-21 12:03:02 -0400
+Processing by PlatesController#show as */*
+  Parameters: {"id"=>"4"}
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started DELETE "/plates/4" for ::1 at 2019-06-21 12:03:03 -0400
+Processing by PlatesController#delete as */*
+  Parameters: {"id"=>"4"}
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/plates" for ::1 at 2019-06-21 15:15:40 -0400
+Processing by PlatesController#index as */*
+Completed 200 OK in 0ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/plates" for ::1 at 2019-06-21 15:23:44 -0400
+Processing by PlatesController#create as HTML
+  Parameters: {"name"=>"plate name", "samples"=>6, "sc_reps"=>3, "replicates"=>2, "dilutions"=>6, "cellcount"=>96, "plate"=>{"name"=>"plate name", "samples"=>6, "sc_reps"=>3, "replicates"=>2, "dilutions"=>6, "cellcount"=>96}}
+Completed 200 OK in 2ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/plates" for ::1 at 2019-06-21 15:23:47 -0400
+Processing by PlatesController#index as */*
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/plates/7" for ::1 at 2019-06-21 15:23:56 -0400
+Processing by PlatesController#show as */*
+  Parameters: {"id"=>"7"}
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started DELETE "/plates/7" for ::1 at 2019-06-21 15:23:58 -0400
+Processing by PlatesController#delete as */*
+  Parameters: {"id"=>"7"}
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/plates" for ::1 at 2019-06-21 15:43:18 -0400
+Processing by PlatesController#index as */*
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/plates" for ::1 at 2019-06-21 15:43:53 -0400
+Processing by PlatesController#index as */*
+Completed 200 OK in 0ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/plates" for ::1 at 2019-06-21 15:46:16 -0400
+Processing by PlatesController#index as */*
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/plates" for ::1 at 2019-06-21 15:46:47 -0400
+Processing by PlatesController#index as */*
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/plates" for ::1 at 2019-06-21 15:50:43 -0400
+Processing by PlatesController#index as */*
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/plates/3" for ::1 at 2019-06-21 15:50:46 -0400
+Processing by PlatesController#show as */*
+  Parameters: {"id"=>"3"}
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/plates/3" for ::1 at 2019-06-21 17:30:04 -0400
+Processing by PlatesController#show as */*
+  Parameters: {"id"=>"3"}
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/plates/3" for ::1 at 2019-06-21 17:34:23 -0400
+Processing by PlatesController#show as */*
+  Parameters: {"id"=>"3"}
+Completed 200 OK in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/plates/3" for ::1 at 2019-06-21 17:34:30 -0400
+Processing by PlatesController#show as */*
+  Parameters: {"id"=>"3"}
+Completed 200 OK in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/plates/3" for ::1 at 2019-06-21 17:42:54 -0400
+Processing by PlatesController#show as */*
+  Parameters: {"id"=>"3"}
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/plates/3" for ::1 at 2019-06-21 17:44:00 -0400
+Processing by PlatesController#show as */*
+  Parameters: {"id"=>"3"}
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/plates" for ::1 at 2019-06-21 19:20:02 -0400
+Processing by PlatesController#index as */*
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/plates" for ::1 at 2019-06-21 19:20:09 -0400
+Processing by PlatesController#create as HTML
+  Parameters: {"name"=>"plate", "samples"=>6, "sc_reps"=>3, "replicates"=>2, "dilutions"=>6, "cellcount"=>96, "plate"=>{"name"=>"plate", "samples"=>6, "sc_reps"=>3, "replicates"=>2, "dilutions"=>6, "cellcount"=>96}}
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/plates" for ::1 at 2019-06-21 19:20:10 -0400
+Processing by PlatesController#index as */*
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/plates" for ::1 at 2019-06-22 09:22:51 -0400
+Processing by PlatesController#index as */*
+Completed 200 OK in 6ms (Views: 2.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/plates/1" for ::1 at 2019-06-22 09:22:57 -0400
+Processing by PlatesController#show as */*
+  Parameters: {"id"=>"1"}
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/plates/1" for ::1 at 2019-06-22 09:23:09 -0400
+Processing by PlatesController#show as */*
+  Parameters: {"id"=>"1"}
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/plates/1" for ::1 at 2019-06-22 09:23:26 -0400
+Processing by PlatesController#show as */*
+  Parameters: {"id"=>"1"}
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/plates/1" for ::1 at 2019-06-22 09:23:53 -0400
+Processing by PlatesController#show as */*
+  Parameters: {"id"=>"1"}
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/plates/1" for ::1 at 2019-06-22 09:24:02 -0400
+Processing by PlatesController#show as */*
+  Parameters: {"id"=>"1"}
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/plates/1" for ::1 at 2019-06-22 09:24:19 -0400
+Processing by PlatesController#show as */*
+  Parameters: {"id"=>"1"}
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/plates/1" for ::1 at 2019-06-22 09:24:47 -0400
+Processing by PlatesController#show as */*
+  Parameters: {"id"=>"1"}
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/plates/1" for ::1 at 2019-06-22 09:25:53 -0400
+Processing by PlatesController#show as */*
+  Parameters: {"id"=>"1"}
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/plates/1" for ::1 at 2019-06-22 09:26:20 -0400
+Processing by PlatesController#show as */*
+  Parameters: {"id"=>"1"}
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/plates/1" for ::1 at 2019-06-22 09:26:52 -0400
+Processing by PlatesController#show as */*
+  Parameters: {"id"=>"1"}
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/plates/1" for ::1 at 2019-06-22 09:27:37 -0400
+Processing by PlatesController#show as */*
+  Parameters: {"id"=>"1"}
+Completed 200 OK in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/plates/1" for ::1 at 2019-06-22 09:28:45 -0400
+Processing by PlatesController#show as */*
+  Parameters: {"id"=>"1"}
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/plates/1" for ::1 at 2019-06-22 09:29:09 -0400
+Processing by PlatesController#show as */*
+  Parameters: {"id"=>"1"}
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/plates/1" for ::1 at 2019-06-22 09:29:55 -0400
+Processing by PlatesController#show as */*
+  Parameters: {"id"=>"1"}
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/plates/1" for ::1 at 2019-06-22 09:30:12 -0400
+Processing by PlatesController#show as */*
+  Parameters: {"id"=>"1"}
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/plates/1" for ::1 at 2019-06-22 09:30:42 -0400
+Processing by PlatesController#show as */*
+  Parameters: {"id"=>"1"}
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/plates/1" for ::1 at 2019-06-22 09:32:04 -0400
+Processing by PlatesController#show as */*
+  Parameters: {"id"=>"1"}
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/plates/1" for ::1 at 2019-06-22 09:34:08 -0400
+Processing by PlatesController#show as */*
+  Parameters: {"id"=>"1"}
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/plates/1" for ::1 at 2019-06-22 09:34:31 -0400
+Processing by PlatesController#show as */*
+  Parameters: {"id"=>"1"}
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/plates/1" for ::1 at 2019-06-22 09:34:49 -0400
+Processing by PlatesController#show as */*
+  Parameters: {"id"=>"1"}
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/plates/1" for ::1 at 2019-06-22 09:36:19 -0400
+Processing by PlatesController#show as */*
+  Parameters: {"id"=>"1"}
+Completed 200 OK in 1ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/plates/1" for ::1 at 2019-06-22 09:37:15 -0400
+Processing by PlatesController#show as */*
+  Parameters: {"id"=>"1"}
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/plates/1" for ::1 at 2019-06-22 09:37:52 -0400
+Processing by PlatesController#show as */*
+  Parameters: {"id"=>"1"}
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/plates/1" for ::1 at 2019-06-22 09:38:43 -0400
+Processing by PlatesController#show as */*
+  Parameters: {"id"=>"1"}
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/plates/1" for ::1 at 2019-06-22 09:39:22 -0400
+Processing by PlatesController#show as */*
+  Parameters: {"id"=>"1"}
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/plates/1" for ::1 at 2019-06-22 09:39:49 -0400
+Processing by PlatesController#show as */*
+  Parameters: {"id"=>"1"}
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/plates/1" for ::1 at 2019-06-22 09:41:53 -0400
+Processing by PlatesController#show as */*
+  Parameters: {"id"=>"1"}
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/plates" for ::1 at 2019-06-22 09:46:23 -0400
+Processing by PlatesController#index as */*
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/plates/1" for ::1 at 2019-06-22 09:46:24 -0400
+Processing by PlatesController#show as */*
+  Parameters: {"id"=>"1"}
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/plates/1" for ::1 at 2019-06-22 09:47:01 -0400
+Processing by PlatesController#show as */*
+  Parameters: {"id"=>"1"}
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/plates/1" for ::1 at 2019-06-22 09:47:45 -0400
+Processing by PlatesController#show as */*
+  Parameters: {"id"=>"1"}
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/plates/1" for ::1 at 2019-06-22 09:48:41 -0400
+Processing by PlatesController#show as */*
+  Parameters: {"id"=>"1"}
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/plates/1" for ::1 at 2019-06-22 09:48:57 -0400
+Processing by PlatesController#show as */*
+  Parameters: {"id"=>"1"}
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/plates/1" for ::1 at 2019-06-22 09:50:02 -0400
+Processing by PlatesController#show as */*
+  Parameters: {"id"=>"1"}
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/plates/1" for ::1 at 2019-06-22 09:50:54 -0400
+Processing by PlatesController#show as */*
+  Parameters: {"id"=>"1"}
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/plates/1" for ::1 at 2019-06-22 09:51:32 -0400
+Processing by PlatesController#show as */*
+  Parameters: {"id"=>"1"}
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/plates/1" for ::1 at 2019-06-22 09:52:08 -0400
+Processing by PlatesController#show as */*
+  Parameters: {"id"=>"1"}
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/plates/1" for ::1 at 2019-06-22 09:52:41 -0400
+Processing by PlatesController#show as */*
+  Parameters: {"id"=>"1"}
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/plates/1" for ::1 at 2019-06-22 09:53:16 -0400
+Processing by PlatesController#show as */*
+  Parameters: {"id"=>"1"}
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/plates/1" for ::1 at 2019-06-22 09:53:59 -0400
+Processing by PlatesController#show as */*
+  Parameters: {"id"=>"1"}
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/plates/1" for ::1 at 2019-06-22 09:54:05 -0400
+Processing by PlatesController#show as */*
+  Parameters: {"id"=>"1"}
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/plates/1" for ::1 at 2019-06-22 09:54:10 -0400
+Processing by PlatesController#show as */*
+  Parameters: {"id"=>"1"}
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/plates/1" for ::1 at 2019-06-22 09:54:18 -0400
+Processing by PlatesController#show as */*
+  Parameters: {"id"=>"1"}
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/plates/1" for ::1 at 2019-06-22 09:54:25 -0400
+Processing by PlatesController#show as */*
+  Parameters: {"id"=>"1"}
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/plates/1" for ::1 at 2019-06-22 09:54:28 -0400
+Processing by PlatesController#show as */*
+  Parameters: {"id"=>"1"}
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/plates/1" for ::1 at 2019-06-22 09:54:32 -0400
+Processing by PlatesController#show as */*
+  Parameters: {"id"=>"1"}
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/plates/1" for ::1 at 2019-06-22 09:54:45 -0400
+Processing by PlatesController#show as */*
+  Parameters: {"id"=>"1"}
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/plates/1" for ::1 at 2019-06-22 09:54:53 -0400
+Processing by PlatesController#show as */*
+  Parameters: {"id"=>"1"}
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/plates/1" for ::1 at 2019-06-22 09:54:58 -0400
+Processing by PlatesController#show as */*
+  Parameters: {"id"=>"1"}
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/plates/1" for ::1 at 2019-06-22 09:55:25 -0400
+Processing by PlatesController#show as */*
+  Parameters: {"id"=>"1"}
+Completed 200 OK in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/plates/1" for ::1 at 2019-06-22 09:55:30 -0400
+Processing by PlatesController#show as */*
+  Parameters: {"id"=>"1"}
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/plates/1" for ::1 at 2019-06-22 09:55:50 -0400
+Processing by PlatesController#show as */*
+  Parameters: {"id"=>"1"}
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/plates/1" for ::1 at 2019-06-22 09:56:41 -0400
+Processing by PlatesController#show as */*
+  Parameters: {"id"=>"1"}
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/plates/1" for ::1 at 2019-06-22 09:58:51 -0400
+Processing by PlatesController#show as */*
+  Parameters: {"id"=>"1"}
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/plates/1" for ::1 at 2019-06-22 09:59:03 -0400
+Processing by PlatesController#show as */*
+  Parameters: {"id"=>"1"}
+Completed 200 OK in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/plates/1" for ::1 at 2019-06-22 09:59:54 -0400
+Processing by PlatesController#show as */*
+  Parameters: {"id"=>"1"}
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/plates/1" for ::1 at 2019-06-22 10:00:07 -0400
+Processing by PlatesController#show as */*
+  Parameters: {"id"=>"1"}
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/plates/1" for ::1 at 2019-06-22 10:00:20 -0400
+Processing by PlatesController#show as */*
+  Parameters: {"id"=>"1"}
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/plates/1" for ::1 at 2019-06-22 10:00:39 -0400
+Processing by PlatesController#show as */*
+  Parameters: {"id"=>"1"}
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/plates/1" for ::1 at 2019-06-22 10:00:49 -0400
+Processing by PlatesController#show as */*
+  Parameters: {"id"=>"1"}
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/plates/1" for ::1 at 2019-06-22 10:00:57 -0400
+Processing by PlatesController#show as */*
+  Parameters: {"id"=>"1"}
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/plates/1" for ::1 at 2019-06-22 10:01:28 -0400
+Processing by PlatesController#show as */*
+  Parameters: {"id"=>"1"}
+Completed 200 OK in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/plates/1" for ::1 at 2019-06-22 10:01:36 -0400
+Processing by PlatesController#show as */*
+  Parameters: {"id"=>"1"}
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/plates/1" for ::1 at 2019-06-22 10:01:40 -0400
+Processing by PlatesController#show as */*
+  Parameters: {"id"=>"1"}
+Completed 200 OK in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/plates/1" for ::1 at 2019-06-22 10:01:45 -0400
+Processing by PlatesController#show as */*
+  Parameters: {"id"=>"1"}
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/plates/1" for ::1 at 2019-06-22 10:01:51 -0400
+Processing by PlatesController#show as */*
+  Parameters: {"id"=>"1"}
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/plates/1" for ::1 at 2019-06-22 10:01:58 -0400
+Processing by PlatesController#show as */*
+  Parameters: {"id"=>"1"}
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/plates/1" for ::1 at 2019-06-22 10:02:03 -0400
+Processing by PlatesController#show as */*
+  Parameters: {"id"=>"1"}
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/plates/1" for ::1 at 2019-06-22 10:02:09 -0400
+Processing by PlatesController#show as */*
+  Parameters: {"id"=>"1"}
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/plates/1" for ::1 at 2019-06-22 10:02:18 -0400
+Processing by PlatesController#show as */*
+  Parameters: {"id"=>"1"}
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/plates/1" for ::1 at 2019-06-22 10:02:50 -0400
+Processing by PlatesController#show as */*
+  Parameters: {"id"=>"1"}
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/plates/1" for ::1 at 2019-06-22 10:07:05 -0400
+Processing by PlatesController#show as */*
+  Parameters: {"id"=>"1"}
+Completed 200 OK in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/plates/1" for ::1 at 2019-06-22 10:08:00 -0400
+Processing by PlatesController#show as */*
+  Parameters: {"id"=>"1"}
+Completed 200 OK in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/plates/1" for ::1 at 2019-06-22 10:08:27 -0400
+Processing by PlatesController#show as */*
+  Parameters: {"id"=>"1"}
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/plates/1" for ::1 at 2019-06-22 10:08:43 -0400
+Processing by PlatesController#show as */*
+  Parameters: {"id"=>"1"}
+Completed 200 OK in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/plates/1" for ::1 at 2019-06-22 10:08:55 -0400
+Processing by PlatesController#show as */*
+  Parameters: {"id"=>"1"}
+Completed 200 OK in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/plates/1" for ::1 at 2019-06-22 10:09:04 -0400
+Processing by PlatesController#show as */*
+  Parameters: {"id"=>"1"}
+Completed 200 OK in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/plates/1" for ::1 at 2019-06-22 10:09:14 -0400
+Processing by PlatesController#show as */*
+  Parameters: {"id"=>"1"}
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/plates/1" for ::1 at 2019-06-22 10:09:21 -0400
+Processing by PlatesController#show as */*
+  Parameters: {"id"=>"1"}
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/plates/1" for ::1 at 2019-06-22 10:11:12 -0400
+Processing by PlatesController#show as */*
+  Parameters: {"id"=>"1"}
+Completed 200 OK in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/plates/1" for ::1 at 2019-06-22 10:11:27 -0400
+Processing by PlatesController#show as */*
+  Parameters: {"id"=>"1"}
+Completed 200 OK in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/plates/1" for ::1 at 2019-06-22 10:11:40 -0400
+Processing by PlatesController#show as */*
+  Parameters: {"id"=>"1"}
+Completed 200 OK in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/plates/1" for ::1 at 2019-06-22 10:11:48 -0400
+Processing by PlatesController#show as */*
+  Parameters: {"id"=>"1"}
+Completed 200 OK in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/plates/1" for ::1 at 2019-06-22 10:12:20 -0400
+Processing by PlatesController#show as */*
+  Parameters: {"id"=>"1"}
+Completed 200 OK in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/plates/1" for ::1 at 2019-06-22 10:12:59 -0400
+Processing by PlatesController#show as */*
+  Parameters: {"id"=>"1"}
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/plates/1" for ::1 at 2019-06-22 10:14:01 -0400
+Processing by PlatesController#show as */*
+  Parameters: {"id"=>"1"}
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/plates/1" for ::1 at 2019-06-22 10:14:24 -0400
+Processing by PlatesController#show as */*
+  Parameters: {"id"=>"1"}
+Completed 200 OK in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/plates/1" for ::1 at 2019-06-22 10:14:52 -0400
+Processing by PlatesController#show as */*
+  Parameters: {"id"=>"1"}
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/plates/1" for ::1 at 2019-06-22 10:15:25 -0400
+Processing by PlatesController#show as */*
+  Parameters: {"id"=>"1"}
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/plates/1" for ::1 at 2019-06-22 10:15:51 -0400
+Processing by PlatesController#show as */*
+  Parameters: {"id"=>"1"}
+Completed 200 OK in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/plates/1" for ::1 at 2019-06-22 10:16:03 -0400
+Processing by PlatesController#show as */*
+  Parameters: {"id"=>"1"}
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/plates/1" for ::1 at 2019-06-22 10:16:29 -0400
+Processing by PlatesController#show as */*
+  Parameters: {"id"=>"1"}
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/plates/1" for ::1 at 2019-06-22 10:18:09 -0400
+Processing by PlatesController#show as */*
+  Parameters: {"id"=>"1"}
+Completed 200 OK in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/plates/1" for ::1 at 2019-06-22 10:18:38 -0400
+Processing by PlatesController#show as */*
+  Parameters: {"id"=>"1"}
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/plates/1" for ::1 at 2019-06-22 10:19:29 -0400
+Processing by PlatesController#show as */*
+  Parameters: {"id"=>"1"}
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/plates/1" for ::1 at 2019-06-22 10:19:37 -0400
+Processing by PlatesController#show as */*
+  Parameters: {"id"=>"1"}
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/plates/1" for ::1 at 2019-06-22 10:19:44 -0400
+Processing by PlatesController#show as */*
+  Parameters: {"id"=>"1"}
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/plates/1" for ::1 at 2019-06-22 10:19:51 -0400
+Processing by PlatesController#show as */*
+  Parameters: {"id"=>"1"}
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/plates/1" for ::1 at 2019-06-22 10:19:56 -0400
+Processing by PlatesController#show as */*
+  Parameters: {"id"=>"1"}
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/plates/1" for ::1 at 2019-06-22 10:20:03 -0400
+Processing by PlatesController#show as */*
+  Parameters: {"id"=>"1"}
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/plates/1" for ::1 at 2019-06-22 10:20:08 -0400
+Processing by PlatesController#show as */*
+  Parameters: {"id"=>"1"}
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/plates/1" for ::1 at 2019-06-22 10:20:14 -0400
+Processing by PlatesController#show as */*
+  Parameters: {"id"=>"1"}
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/plates/1" for ::1 at 2019-06-22 10:20:22 -0400
+Processing by PlatesController#show as */*
+  Parameters: {"id"=>"1"}
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/plates/1" for ::1 at 2019-06-22 10:20:26 -0400
+Processing by PlatesController#show as */*
+  Parameters: {"id"=>"1"}
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/plates/1" for ::1 at 2019-06-22 10:20:30 -0400
+Processing by PlatesController#show as */*
+  Parameters: {"id"=>"1"}
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/plates/1" for ::1 at 2019-06-22 10:20:37 -0400
+Processing by PlatesController#show as */*
+  Parameters: {"id"=>"1"}
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/plates/1" for ::1 at 2019-06-22 10:20:40 -0400
+Processing by PlatesController#show as */*
+  Parameters: {"id"=>"1"}
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/plates/1" for ::1 at 2019-06-22 10:20:44 -0400
+Processing by PlatesController#show as */*
+  Parameters: {"id"=>"1"}
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/plates/1" for ::1 at 2019-06-22 10:20:50 -0400
+Processing by PlatesController#show as */*
+  Parameters: {"id"=>"1"}
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/plates/1" for ::1 at 2019-06-22 10:21:28 -0400
+Processing by PlatesController#show as */*
+  Parameters: {"id"=>"1"}
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/plates" for ::1 at 2019-06-22 10:25:16 -0400
+Processing by PlatesController#create as HTML
+  Parameters: {"name"=>"new plate", "samples"=>6, "sc_reps"=>2, "replicates"=>6, "dilutions"=>2, "cellcount"=>88, "plate"=>{"name"=>"new plate", "samples"=>6, "sc_reps"=>2, "replicates"=>6, "dilutions"=>2, "cellcount"=>88}}
+Completed 200 OK in 4ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/plates" for ::1 at 2019-06-22 10:25:18 -0400
+Processing by PlatesController#index as */*
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/plates/9" for ::1 at 2019-06-22 10:25:19 -0400
+Processing by PlatesController#show as */*
+  Parameters: {"id"=>"9"}
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/plates" for ::1 at 2019-06-22 11:01:34 -0400
+Processing by PlatesController#index as */*
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/plates" for ::1 at 2019-06-22 11:01:56 -0400
+Processing by PlatesController#index as */*
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/plates" for ::1 at 2019-06-22 11:02:08 -0400
+Processing by PlatesController#index as */*
+Completed 200 OK in 1ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/plates/8" for ::1 at 2019-06-22 11:10:21 -0400
+Processing by PlatesController#show as */*
+  Parameters: {"id"=>"8"}
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/plates" for ::1 at 2019-06-22 11:29:50 -0400
+Processing by PlatesController#index as */*
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/plates/1" for ::1 at 2019-06-22 11:29:51 -0400
+Processing by PlatesController#show as */*
+  Parameters: {"id"=>"1"}
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/plates/1" for ::1 at 2019-06-22 12:08:40 -0400
+Processing by PlatesController#show as */*
+  Parameters: {"id"=>"1"}
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/plates/1" for ::1 at 2019-06-22 12:09:04 -0400
+Processing by PlatesController#show as */*
+  Parameters: {"id"=>"1"}
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/plates/1" for ::1 at 2019-06-22 12:09:17 -0400
+Processing by PlatesController#show as */*
+  Parameters: {"id"=>"1"}
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/plates/1" for ::1 at 2019-06-22 12:10:24 -0400
+Processing by PlatesController#show as */*
+  Parameters: {"id"=>"1"}
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/plates/1" for ::1 at 2019-06-22 12:10:27 -0400
+Processing by PlatesController#show as */*
+  Parameters: {"id"=>"1"}
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/plates/1" for ::1 at 2019-06-22 12:11:50 -0400
+Processing by PlatesController#show as */*
+  Parameters: {"id"=>"1"}
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/plates" for ::1 at 2019-06-22 12:12:49 -0400
+Processing by PlatesController#index as */*
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/plates" for ::1 at 2019-06-22 12:13:58 -0400
+Processing by PlatesController#index as */*
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
